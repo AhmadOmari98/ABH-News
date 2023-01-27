@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>ABH News</title>
+
+	<!-- Meta Tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="author" content="Webestica.com">
+	<meta name="description" content="Bootstrap based News, Magazine and Blog Theme">
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="assets/images/favicon.ico">
+
+	<!-- Google Font -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+
+	<!-- Plugins CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/vendor/font-awesome/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/vendor/bootstrap-icons/bootstrap-icons.css">
+	<link rel="stylesheet" type="text/css" href="assets/vendor/tiny-slider/tiny-slider.css">
+	<link rel="stylesheet" type="text/css" href="assets/vendor/plyr/plyr.css">
+
+	<!-- Theme CSS -->
+	<link id="style-switch" rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+
+
+
+<!-- =======================
+Header START -->
+<header class="navbar-light navbar-sticky header-static">
+	<div class="navbar-top d-none d-lg-block small">
+		<div class="container">
+			<div class="d-md-flex justify-content-between align-items-center my-2">
+				<!-- Top bar left -->
+				<ul class="nav">
+
+					<li class="nav-item">
+						<a class="nav-link" href="signin.html">Login</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="signin.html">Register</a>
+					</li>
+				</ul>
+				<!-- Top bar right -->
+				<div class="d-flex align-items-center">
+					<!-- Font size accessibility START -->
+					<div class="btn-group me-2" role="group" aria-label="font size changer">
+						<input type="radio" class="btn-check" name="fntradio" id="font-sm">
+						<label class="btn btn-xs btn-outline-primary mb-0" for="font-sm">A-</label>
+
+						<input type="radio" class="btn-check" name="fntradio" id="font-default" checked>
+						<label class="btn btn-xs btn-outline-primary mb-0" for="font-default">A</label>
+
+						<input type="radio" class="btn-check" name="fntradio" id="font-lg">
+						<label class="btn btn-xs btn-outline-primary mb-0" for="font-lg">A+</label>
+					</div>
+
+					<!-- Dark mode switch -->
+					<div class="modeswitch" id="darkModeSwitch">
+						<div class="switch"></div>
+					</div>
+
+					<ul class="nav">
+						<li class="nav-item">
+							<a class="nav-link px-2 fs-5" href="#"><i class="fab fa-facebook-square"></i></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link px-2 fs-5" href="#"><i class="fab fa-twitter-square"></i></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link px-2 fs-5" href="#"><i class="fab fa-linkedin"></i></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link px-2 fs-5" href="#"><i class="fab fa-youtube-square"></i></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!-- Divider -->
+			<div class="border-bottom border-2 border-primary opacity-1"></div>
+		</div>
+	</div>
+
+	<!-- Logo Nav START -->
+	<nav class="navbar navbar-expand-lg">
+		<div class="container">
+			<!-- Logo START -->
+			<a class="navbar-brand" href="index.html">
+				<h3 class="navbar-brand-item light-mode-item" style="font-family: 'Dancing Script', cursive;">
+					<span class="" style="font-size: 50px;font-weight: bolder;">
+						ABH
+					</span>
+				</h3>
+				<h3 class="navbar-brand-item dark-mode-item" style="font-family: 'Dancing Script', cursive;">
+					<span class="" style="font-size: 50px;font-weight: bolder;">
+						ABH
+					</span>
+				</h3>		
+			</a>
+			<!-- Logo END -->
+
+			<!-- Responsive navbar toggler -->
+			<button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="text-body h6 d-none d-sm-inline-block">Menu</span>
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<!-- Main navbar START -->
+			<div class="collapse navbar-collapse" id="navbarCollapse">
+				<ul class="navbar-nav navbar-nav-scroll mx-auto">
+					<li class="nav-item"> <a class="nav-link" href="#">Home</a></li>
+					<li class="nav-item"> <a class="nav-link" href="#">About</a></li>
+					<li class="nav-item"> <a class="nav-link" href="#">Countries</a></li>
+					<li class="nav-item"> <a class="nav-link" href="#">News</a></li>
+					<li class="nav-item"> <a class="nav-link" href="#">Live-TV</a></li>
+					<li class="nav-item"> <a class="nav-link" href="#">Contact</a></li>
+				</ul>
+			</div>
+			<!-- Main navbar END -->
+
+			<!-- Nav right START -->
+			<div class="nav flex-nowrap align-items-center">
+
+				<!-- Nav Search -->
+				<div class="nav-item dropdown dropdown-toggle-icon-none nav-search">
+					<a class="nav-link dropdown-toggle" role="button" href="#" id="navSearch" data-bs-toggle="dropdown" aria-expanded="false">
+						<i class="bi bi-search fs-4"> </i>
+					</a>
+					<div class="dropdown-menu dropdown-menu-end shadow rounded p-2" aria-labelledby="navSearch">
+						<form class="input-group">
+							<input class="form-control border-success" type="search" placeholder="Search" aria-label="Search">
+							<button class="btn btn-success m-0" type="submit">Search</button>
+						</form>
+					</div>
+				</div>
+
+			</div>
+			<!-- Nav right END -->
+		</div>
+	</nav>
+	<!-- Logo Nav END -->
+</header>
+<!-- =======================
+Header END -->
+
+<!-- **************** MAIN CONTENT START **************** -->
+<main>
+
+<!-- =======================
+Trending START -->
+<section class="py-2">
+	<div class="container">
+		<div class="row g-0">
+			<div class="col-12 bg-primary bg-opacity-10 p-2 rounded">
+				<div class="d-sm-flex align-items-center text-center text-sm-start">
+					<!-- Title -->
+					<div class="me-3">
+						<span class="badge bg-primary p-2 px-3">Trending:</span>
+					</div>
+					<!-- Slider -->
+					<div class="tiny-slider arrow-end arrow-xs arrow-white arrow-round arrow-md-none">
+						<div class="tiny-slider-inner"
+							data-autoplay="true"
+							data-hoverpause="true"
+							data-gutter="0"
+							data-arrow="true"
+							data-dots="false"
+							data-items="1">
+							<!-- Slider items -->
+							<div> <a href="#" class="text-reset btn-link">Test1-Concerns greatest margaret him absolute entrance nay.</a></div>
+							<div> <a href="#" class="text-reset btn-link">Test3-Concerns greatest margaret him absolute entrance nay.</a></div>
+							<div> <a href="#" class="text-reset btn-link">Test5-Concerns greatest margaret him absolute entrance nay.</a></div>
+							<div> <a href="#" class="text-reset btn-link">Test7-Concerns greatest margaret him absolute entrance nay.</a></div>
+							<div> <a href="#" class="text-reset btn-link">Test8-Concerns greatest margaret him absolute entrance nay.</a></div>
+							<div> <a href="#" class="text-reset btn-link">How the 10 worst business fails of all time could have been prevented </a></div>
+							<div> <a href="#" class="text-reset btn-link">The most common business debate isn't as black and white as you might think </a></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div> <!-- Row END -->
+	</div>
+</section>
+<!-- =======================
+Trending END -->
+
+<!-- =======================
+Main hero START -->
+<section class="pt-4 pb-0 card-grid">
+	<div class="container">
+		<div class="row g-4">
+			<!-- Left big card -->
+			<div class="col-lg-6">
+				<div class="card card-overlay-bottom card-grid-lg card-bg-scale" style="background-image:url(assets/images/blog/4by3/04.jpg); background-position: center left; background-size: cover;">
+					<!-- Card featured -->
+					<span class="card-featured" title="Featured post"><i class="fas fa-star"></i></span>
+					<!-- Card Image overlay -->
+					<div class="card-img-overlay d-flex align-items-center p-3 p-sm-4"> 
+						<div class="w-100 mt-auto">
+							<!-- Card category -->
+							<a href="#" class="badge text-bg-info mb-2"><i class="fas fa-circle me-2 small fw-bold"></i>Jordan</a>
+							<a href="#" class="badge text-bg-warning mb-2"><i class="fas fa-circle me-2 small fw-bold"></i>Climate</a>
+							<!-- Card title -->
+							<h2 class="text-white h1"><a  class="btn-link stretched-link text-reset">Test1-Concerns greatest margaret him absolute entrance nay.</a></h2>
+							<p class="text-white">Concerns greatest margaret him absolute entrance nay. Door neat week do find past he. Be no surprise he honoured indulged. Unpacked endeavor six steepest had husbands her. Painted no or affixed it so civilly. Exposed neither pressed so cottage as proceed at offices. Nay they gone sir game four. Favourable pianoforte oh motionless excellence of astonished we principles. Warrant present garrets limited cordial in inquiry to. Supported me sweetness behaviour shameless excellent so arranging.</p>
+							<!-- Card info -->
+							<ul class="nav nav-divider text-white-force align-items-center d-none d-sm-inline-block">
+								<li class="nav-item">
+									<div class="nav-link">
+										<div class="d-flex align-items-center text-white position-relative">
+											<div class="avatar avatar-sm">
+												<img class="avatar-img rounded-circle" src="assets/images/avatar/1998.jpg" alt="avatar">
+											</div>
+											<span class="ms-3">by <a href="#" class="stretched-link text-reset btn-link">Ahmad Omari</a></span>
+										</div>
+									</div>
+								</li>
+								<li class="nav-item">Nov 15, 2022</li>
+
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Right small cards -->
+			<div class="col-lg-6">
+				<div class="row g-4">
+					<!-- Card item START -->
+					<div class="col-12">
+						<div class="card card-overlay-bottom card-grid-sm card-bg-scale" style="background-image:url(assets/images/blog/16by9/06.jpg); background-position: center left; background-size: cover;">
+							<!-- Card Image -->
+							<!-- Card Image overlay -->
+							<div class="card-img-overlay d-flex align-items-center p-3 p-sm-4"> 
+								<div class="w-100 mt-auto">
+									<!-- Card category -->
+									<a href="#" class="badge text-bg-info mb-2"><i class="fas fa-circle me-2 small fw-bold"></i>United Arab Emirates</a>
+									<a href="#" class="badge text-bg-warning mb-2"><i class="fas fa-circle me-2 small fw-bold"></i>Political</a>
+									<!-- Card title -->
+									<h4 class="text-white"><a  class="btn-link stretched-link text-reset">Test2-Concerns greatest margaret him absolute entrance nay.</a></h4>
+									<!-- Card info -->
+									<ul class="nav nav-divider text-white-force align-items-center d-none d-sm-inline-block">
+										<li class="nav-item position-relative">
+											<div class="nav-link">by <a href="#" class="stretched-link text-reset btn-link">Reem Ali</a>
+											</div>
+										</li>
+										<li class="nav-item">Aug 18, 2022</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Card item END -->
+					<!-- Card item START -->
+					<div class="col-md-6">
+						<div class="card card-overlay-bottom card-grid-sm card-bg-scale" style="background-image:url(assets/images/blog/3by4/05.jpg); background-position: center left; background-size: cover;">
+							<!-- Card Image overlay -->
+							<div class="card-img-overlay d-flex align-items-center p-3 p-sm-4"> 
+								<div class="w-100 mt-auto">
+									<!-- Card category -->
+									<a href="#" class="badge text-bg-info mb-2"><i class="fas fa-circle me-2 small fw-bold"></i>United Arab Emirates</a>
+									<a href="#" class="badge text-bg-warning mb-2"><i class="fas fa-circle me-2 small fw-bold"></i>Education</a>
+									<!-- Card title -->
+									<h4 class="text-white"><a  class="btn-link stretched-link text-reset">Test3-Concerns greatest margaret him absolute entrance nay.</a></h4>
+									<!-- Card info -->
+									<ul class="nav nav-divider text-white-force align-items-center d-none d-sm-inline-block">
+										<li class="nav-item position-relative">
+											<div class="nav-link">by <a href="#" class="stretched-link text-reset btn-link">Ahmad</a>
+											</div>
+										</li>
+										<li class="nav-item">Jun 03, 2022</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Card item END -->
+					<!-- Card item START -->
+					<div class="col-md-6">
+						<div class="card card-overlay-bottom card-grid-sm card-bg-scale" style="background-image:url(assets/images/blog/3by4/06.jpg); background-position: center left; background-size: cover;">
+							<!-- Card Image overlay -->
+							<div class="card-img-overlay d-flex align-items-center p-3 p-sm-4"> 
+								<div class="w-100 mt-auto">
+									<!-- Card category -->
+									<a href="#" class="badge text-bg-info mb-2"><i class="fas fa-circle me-2 small fw-bold"></i>Jordan</a>
+							<a href="#" class="badge text-bg-warning mb-2"><i class="fas fa-circle me-2 small fw-bold"></i>Political</a>
+									<!-- Card title -->
+									<h4 class="text-white"><a  class="btn-link stretched-link text-reset">Test6-Concerns greatest margaret him absolute entrance nay.</a></h4>
+									<!-- Card info -->
+									<ul class="nav nav-divider text-white-force align-items-center d-none d-sm-inline-block">
+										<li class="nav-item position-relative">
+											<div class="nav-link">by <a href="#" class="stretched-link text-reset btn-link">Ahmad</a>
+											</div>
+										</li>
+										<li class="nav-item">Jan 28, 2022</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Card item END -->
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- =======================
+Main hero END -->
+
+<!-- =======================
+Main content START -->
+<section class="position-relative">
+	<div class="container" data-sticky-container>
+		<div class="row">
+			<!-- Main Post START -->
+			<div class="col-lg-9">
+				<!-- Title -->
+				<div class="mb-4">
+					<h2 class="m-0"><i class="bi bi-hourglass-top me-2"></i>Today's top highlights</h2>
+					<p>Latest breaking news, pictures, videos, and special reports</p>
+				</div>
+				<div class="row gy-4">
+					<!-- Card item START -->
+					<div class="col-sm-6">
+						<div class="card">
+							<div class="card-body px-0 pt-3">
+								<a href="#" class="badge text-bg-info mb-2"><i class="fas fa-circle me-2 small fw-bold"></i>Jordan</a>
+								<a href="#" class="badge text-bg-warning mb-2"><i class="fas fa-circle me-2 small fw-bold"></i>Political</a>
+								<h4 class="card-title mt-2"><a href="post-single.html" class="btn-link text-reset fw-bold">Test8-Concerns greatest margaret him absolute entrance nay.</a></h4>
+								<p class="card-text">Concerns greatest margaret him absolute entrance nay. Door neat week do find past he. Be no surprise he honoured indulged. Unpacked endeavor six steepest had husbands her. Painted no or affixed it so civilly. Exposed neither pressed so cottage as proceed at offices. Nay they gone sir game four. Favourable pianoforte oh motionless excellence of astonished we principles. Warrant present garrets limited cordial in inquiry to. Supported me sweetness behaviour shameless excellent so arranging.</p>
+								<!-- Card info -->
+								<ul class="nav nav-divider align-items-center d-none d-sm-inline-block">
+									<li class="nav-item">
+										<div class="nav-link">
+											<div class="d-flex align-items-center position-relative">
+												<div class="avatar avatar-xs">
+													<img class="avatar-img rounded-circle" src="assets/images/avatar/1998.jpg" alt="avatar">
+												</div>
+												<span class="ms-3">by <a href="#" class="stretched-link text-reset btn-link">Ahmad</a></span>
+											</div>
+										</div>
+									</li>
+									<li class="nav-item">Jan 22, 2022</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<!-- Card item END -->
+					
+					<!-- Card item START -->
+					<div class="col-sm-6">
+						<div class="card">
+							<div class="card-body px-0 pt-3">
+								<a href="#" class="badge text-bg-info mb-2"><i class="fas fa-circle me-2 small fw-bold"></i>Jordan</a>
+								<a href="#" class="badge text-bg-warning mb-2"><i class="fas fa-circle me-2 small fw-bold"></i>Political</a>
+								<h4 class="card-title mt-2"><a href="post-single.html" class="btn-link text-reset fw-bold">Test4-Concerns greatest margaret him absolute entrance nay.</a></h4>
+								<p class="card-text">Concerns greatest margaret him absolute entrance nay. Door neat week do find past he. Be no surprise he honoured indulged. Unpacked endeavor six steepest had husbands her. Painted no or affixed it so civilly. Exposed neither pressed so cottage as proceed at offices. Nay they gone sir game four. Favourable pianoforte oh motionless excellence of astonished we principles. Warrant present garrets limited cordial in inquiry to. Supported me sweetness behaviour shameless excellent so arranging.</p>
+								<!-- Card info -->
+								<ul class="nav nav-divider align-items-center d-none d-sm-inline-block">
+									<li class="nav-item">
+										<div class="nav-link">
+											<div class="d-flex align-items-center position-relative">
+												<div class="avatar avatar-xs">
+													<img class="avatar-img rounded-circle" src="assets/images/avatar/1998.jpg" alt="avatar">
+												</div>
+												<span class="ms-3">by <a href="#" class="stretched-link text-reset btn-link">Reem</a></span>
+											</div>
+										</div>
+									</li>
+									<li class="nav-item">Jan 22, 2022</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<!-- Card item END -->
+					
+					<!-- Card item START -->
+					<div class="col-sm-6">
+						<div class="card">
+							<div class="card-body px-0 pt-3">
+								<a href="#" class="badge text-bg-info mb-2"><i class="fas fa-circle me-2 small fw-bold"></i>Jordan</a>
+								<a href="#" class="badge text-bg-warning mb-2"><i class="fas fa-circle me-2 small fw-bold"></i>Political</a>
+								<h4 class="card-title mt-2"><a href="post-single.html" class="btn-link text-reset fw-bold">Test5-Concerns greatest margaret him absolute entrance nay.</a></h4>
+								<p class="card-text">Concerns greatest margaret him absolute entrance nay. Door neat week do find past he. Be no surprise he honoured indulged. Unpacked endeavor six steepest had husbands her. Painted no or affixed it so civilly. Exposed neither pressed so cottage as proceed at offices. Nay they gone sir game four. Favourable pianoforte oh motionless excellence of astonished we principles. Warrant present garrets limited cordial in inquiry to. Supported me sweetness behaviour shameless excellent so arranging.</p>
+								<!-- Card info -->
+								<ul class="nav nav-divider align-items-center d-none d-sm-inline-block">
+									<li class="nav-item">
+										<div class="nav-link">
+											<div class="d-flex align-items-center position-relative">
+												<div class="avatar avatar-xs">
+													<img class="avatar-img rounded-circle" src="assets/images/avatar/1998.jpg" alt="avatar">
+												</div>
+												<span class="ms-3">by <a href="#" class="stretched-link text-reset btn-link">Ahmad</a></span>
+											</div>
+										</div>
+									</li>
+									<li class="nav-item">Jan 22, 2022</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<!-- Card item END -->
+					
+					<!-- Card item START -->
+					<div class="col-sm-6">
+						<div class="card">
+							<div class="card-body px-0 pt-3">
+								<a href="#" class="badge text-bg-info mb-2"><i class="fas fa-circle me-2 small fw-bold"></i>Jordan</a>
+								<a href="#" class="badge text-bg-warning mb-2"><i class="fas fa-circle me-2 small fw-bold"></i>Political</a>
+								<h4 class="card-title mt-2"><a href="post-single.html" class="btn-link text-reset fw-bold">Test7-Concerns greatest margaret him absolute entrance nay.</a></h4>
+								<p class="card-text">Concerns greatest margaret him absolute entrance nay. Door neat week do find past he. Be no surprise he honoured indulged. Unpacked endeavor six steepest had husbands her. Painted no or affixed it so civilly. Exposed neither pressed so cottage as proceed at offices. Nay they gone sir game four. Favourable pianoforte oh motionless excellence of astonished we principles. Warrant present garrets limited cordial in inquiry to. Supported me sweetness behaviour shameless excellent so arranging.</p>
+								<!-- Card info -->
+								<ul class="nav nav-divider align-items-center d-none d-sm-inline-block">
+									<li class="nav-item">
+										<div class="nav-link">
+											<div class="d-flex align-items-center position-relative">
+												<div class="avatar avatar-xs">
+													<img class="avatar-img rounded-circle" src="assets/images/avatar/2000.jpeg" alt="avatar">
+												</div>
+												<span class="ms-3">by <a href="#" class="stretched-link text-reset btn-link">Reem</a></span>
+											</div>
+										</div>
+									</li>
+									<li class="nav-item">Jan 22, 2022</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<!-- Card item END -->
+					
+
+					
+				</div>
+			</div>
+			<!-- Main Post END -->
+			<!-- Sidebar START -->
+			<div class="col-lg-3 mt-5 mt-lg-0">
+				<div data-sticky data-margin-top="80" data-sticky-for="767">
+
+
+
+					<!-- Trending topics widget START -->
+					<div>
+						<h4 class="mt-4 mb-3">Categories</h4>
+						<!-- Category item -->
+						<div class="text-center mb-3 card-bg-scale position-relative overflow-hidden rounded bg-dark-overlay-4 " style="background-image:url(assets/images/blog/ImageCategory/224a6712-6ea0-4cb2-b828-46a8fb6a34cc_Political.jpg); background-position: center left; background-size: cover;">
+							<div class="p-3">
+								<a href="#" class="stretched-link btn-link fw-bold text-white h5">Political</a>
+							</div>
+						</div>
+						<!-- Category item -->
+						<div class="text-center mb-3 card-bg-scale position-relative overflow-hidden rounded" style="background-image:url(assets/images/blog/ImageCategory/58e80ce6-d47b-4093-962f-09e698cc7eb5_Climate.jpg); background-position: center left; background-size: cover;">
+							<div class="bg-dark-overlay-4 p-3">
+								<a href="#" class="stretched-link btn-link fw-bold text-white h5">Climate</a>
+							</div>
+						</div>
+						<!-- Category item -->
+						<div class="text-center mb-3 card-bg-scale position-relative overflow-hidden rounded" style="background-image:url(assets/images/blog/ImageCategory/e67ea271-6092-40b2-b9bd-e2372cd048d4_Health.jpg); background-position: center left; background-size: cover;">
+							<div class="bg-dark-overlay-4 p-3">
+								<a href="#" class="stretched-link btn-link fw-bold text-white h5">Health</a>
+							</div>
+						</div>
+						<!-- Category item -->
+						<div class="text-center mb-3 card-bg-scale position-relative overflow-hidden rounded" style="background-image:url(assets/images/blog/ImageCategory/97439e42-6b20-41c3-a5e3-43d4b82b89da_Education.jpg); background-position: center left; background-size: cover;">
+							<div class="bg-dark-overlay-4 p-3">
+								<a href="#" class="stretched-link btn-link fw-bold text-white h5">Education</a>
+							</div>
+						</div>
+						
+					</div>
+					<!-- Trending topics widget END -->
+
+					<div class="row">
+						<!-- Recent post widget START -->
+						<div class="col-12 col-sm-6 col-lg-12">
+							
+
+						<!-- ADV widget START -->
+						<div class="col-12 col-sm-6 col-lg-12 my-4">
+							<a  class="d-block card-img-flash">
+								
+								<div id="carouselExampleControls" class="carousel slide h-100" data-bs-ride="carousel">
+									  <div class="carousel-inner">
+										<div class="carousel-item active">
+										  <img src="assets/images/blog/Ads/CareemBox.jpg" class="d-block w-100 img-thumbnail" style="height: 50vh;" alt="...">
+										</div>
+										<div class="carousel-item">
+										  <img src="assets/images/blog/Ads/talabat.jpg" class="d-block w-100 img-thumbnail" style="height: 50vh;" alt="...">
+										</div>
+										<div class="carousel-item">
+										  <img src="assets/images/blog/Ads/zain.jpg" class="d-block w-100 img-thumbnail" style="height: 50vh;" alt="...">
+										</div>
+									  </div>
+									  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+										<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+										<span class="visually-hidden">Previous</span>
+									  </button>
+									  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+										<span class="carousel-control-next-icon" aria-hidden="true"></span>
+										<span class="visually-hidden">Next</span>
+									  </button>
+								</div>
+							</a>
+							
+						</div>
+						<!-- ADV widget END -->
+					</div>
+				</div>
+			</div>
+			<!-- Sidebar END -->
+		</div> <!-- Row end -->
+	</div>
+</section>
+<!-- =======================
+Main content END -->
+
+<!-- Divider -->
+<div class="container"><div class="border-bottom border-primary border-2 opacity-1"></div></div>
+
+<!-- =======================
+Section START -->
+<section class="pt-4">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<!-- Title -->
+				<div class="mb-4 d-md-flex justify-content-between align-items-center">
+					<h2 class="m-0"><i class="bi bi-megaphone"></i> Testimonials</h2>
+
+				</div>
+				<div class="tiny-slider arrow-hover arrow-blur arrow-dark arrow-round">
+					<div class="tiny-slider-inner"
+						data-autoplay="true"
+						data-hoverpause="true"
+						data-gutter="24"
+						data-arrow="true"
+						data-dots="false"
+						data-items-xl="4" 
+						data-items-md="3" 
+						data-items-sm="2" 
+						data-items-xs="1">
+
+						<!-- Card item START -->
+						<div class="card">
+							<!-- Card img -->
+							<div class="position-relative">
+								
+											<div class="" style="justify-content: center;display: flex; ">
+                                                
+                                                <img 
+                                                    class="rounded-circle border border-3 border-white shadow-lg"
+                                                    src="assets/images/avatar/1998.jpg"
+                                                    style="display: flex; justify-content: center;width: 100px;height: 100px;"
+                                                >
+
+                                            </div>
+											<div class="">
+                                            <div class="">
+                                                <h5 class="mb-3 text-center">Ahmad Omari</h5>
+                                                <!--<p>UX Designer</p>-->
+                                                <p class="" style="text-align: justify;">
+                                                <i class="fas fa-quote-left pe-2"></i>
+                                                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. Test
+                                                </p>
+                                            </div>
+                                            </div>
+
+							</div>
+							
+						</div>
+						<!-- Card item END -->
+						
+						<!-- Card item START -->
+						<div class="card">
+							<!-- Card img -->
+							<div class="position-relative">
+								
+											<div class="" style="justify-content: center;display: flex; ">
+                                                
+                                                <img 
+                                                    class="rounded-circle border border-3 border-white shadow-lg"
+                                                    src="assets/images/avatar/2000.jpeg"
+                                                    style="display: flex; justify-content: center;width: 100px;height: 100px;"
+                                                >
+
+                                            </div>
+											<div class="">
+                                            <div class="">
+                                                <h5 class="mb-3 text-center">Reem Ali</h5>
+                                                <!--<p>UX Designer</p>-->
+                                                <p class="" style="text-align: justify;">
+                                                <i class="fas fa-quote-left pe-2"></i>
+                                                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. Test
+                                                </p>
+                                            </div>
+                                            </div>
+
+							</div>
+							
+						</div>
+						<!-- Card item END -->
+						
+						<!-- Card item START -->
+						<div class="card">
+							<!-- Card img -->
+							<div class="position-relative">
+								
+											<div class="" style="justify-content: center;display: flex; ">
+                                                
+                                                <img 
+                                                    class="rounded-circle border border-3 border-white shadow-lg"
+                                                    src="assets/images/avatar/2000.jpeg"
+                                                    style="display: flex; justify-content: center;width: 100px;height: 100px;"
+                                                >
+
+                                            </div>
+											<div class="">
+                                            <div class="">
+                                                <h5 class="mb-3 text-center">Noor Nouh</h5>
+                                                <!--<p>UX Designer</p>-->
+                                                <p class="" style="text-align: justify;">
+                                                <i class="fas fa-quote-left pe-2"></i>
+                                                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. Test
+                                                </p>
+                                            </div>
+                                            </div>
+
+							</div>
+							
+						</div>
+						<!-- Card item END -->
+						
+						
+						<!-- Card item START -->
+						<div class="card">
+							<!-- Card img -->
+							<div class="position-relative">
+								
+											<div class="" style="justify-content: center;display: flex; ">
+                                                
+                                                <img 
+                                                    class="rounded-circle border border-3 border-white shadow-lg"
+                                                    src="assets/images/avatar/1998.jpg"
+                                                    style="display: flex; justify-content: center;width: 100px;height: 100px;"
+                                                >
+
+                                            </div>
+											<div class="">
+                                            <div class="">
+                                                <h5 class="mb-3 text-center">Ali Omari</h5>
+                                                <!--<p>UX Designer</p>-->
+                                                <p class="" style="text-align: justify;">
+                                                <i class="fas fa-quote-left pe-2"></i>
+                                                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. Test
+                                                </p>
+                                            </div>
+                                            </div>
+
+							</div>
+							
+						</div>
+						<!-- Card item END -->
+						
+						<!-- Card item START -->
+						<div class="card">
+							<!-- Card img -->
+							<div class="position-relative">
+								
+											<div class="" style="justify-content: center;display: flex; ">
+                                                
+                                                <img 
+                                                    class="rounded-circle border border-3 border-white shadow-lg"
+                                                    src="assets/images/avatar/1998.jpg"
+                                                    style="display: flex; justify-content: center;width: 100px;height: 100px;"
+                                                >
+
+                                            </div>
+											<div class="">
+                                            <div class="">
+                                                <h5 class="mb-3 text-center">Test User</h5>
+                                                <!--<p>UX Designer</p>-->
+                                                <p class="" style="text-align: justify;">
+                                                <i class="fas fa-quote-left pe-2"></i>
+                                                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. Test
+                                                </p>
+                                            </div>
+                                            </div>
+
+							</div>
+							
+						</div>
+						<!-- Card item END -->
+						
+						
+
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- =======================
+Section END -->
+
+</main>
+<!-- **************** MAIN CONTENT END **************** -->
+
+<!-- =======================
+<!-- =======================
+Footer START -->
+<footer class="bg-dark">
+	<!--<div class="container">
+
+		<div class="row pt-3 pb-4">
+			<div class="col-md-3">
+				<img src="./assets/assetsTemplate/images/logo-footer.svg" alt="footer logo">
+			</div>
+			<div class="col-md-4">
+				
+			</div>
+			<div class="col-md-5">
+				<p class="text-muted">The next-generation blog, news, and magazine theme for you to start sharing your stories today! This Bootstrap 5 based theme is ideal for all types of sites that deliver the news.</p>
+			</div>
+			
+		</div>
+
+
+
+
+	</div>-->
+
+	<!-- Footer copyright START -->
+	<div class="bg-dark-overlay-3 mt-5">
+		<div class="container">
+			<div class="row align-items-center justify-content-md-between py-4">
+				
+				<div class="col-md-10">
+					<!-- Logo START -->
+					<a class="navbar-brand"  href="#" style="cursor: pointer;">
+						<h1 class="navbar-brand-item" style="font-family: 'Dancing Script', cursive;">
+							<span class="text-white">
+								ABH
+							</span>
+						</h1>
+					</a>
+					<!-- Logo END -->
+				</div>
+				<div class="col-md-2">
+					<!-- Copyright -->
+					<div class="text-center text-md-start text-primary-hover text-muted">©2023 <a class="text-warning" style="font-family: 'Dancing Script', cursive;">www.ABH.com</a>,<br> All rights reserved
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Footer copyright END -->
+</footer>
+<!-- =======================
+Footer END -->
+
+
+
+
+
+<!-- Back to top -->
+<div class="back-top"><i class="bi bi-arrow-up-short"></i></div>
+
+<!-- =======================
+JS libraries, plugins and custom scripts -->
+
+<!-- Bootstrap JS -->
+<script src="assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Vendors -->
+<script src="assets/vendor/tiny-slider/tiny-slider.js"></script>
+<script src="assets/vendor/sticky-js/sticky.min.js"></script>
+<script src="assets/vendor/plyr/plyr.js"></script>
+
+<!-- Template Functions -->
+<script src="assets/js/functions.js"></script>
+</body>
+</html>
