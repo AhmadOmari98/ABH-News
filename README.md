@@ -1,0 +1,3 @@
+ABH News is a news platform designed to securely connect journalists and users, offering a seamless experience for discovering and interacting with news. The site categorizes news by topics and countries, and allows users to follow specific journalists. Key features include the ability for users to like and comment on articles, select their favorite categories, and receive notifications for new content. The platform also supports user authentication and authorization, and dynamic content management, where various sections on the homepage can be updated via the database. Additionally, users can submit ads, subject to admin approval.
+
+Technologies used: Oracle SQL Developer, ASP.NET Core Web API, C#, HTML, CSS, JavaScript, Bootstrap, Angular.
